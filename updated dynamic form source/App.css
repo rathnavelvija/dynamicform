@@ -1,0 +1,286 @@
+.App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  /* Style the tab */
+  .tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #ccc;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+  
+   .login-container{
+      background-color: lightgrey;
+  }
+  .textallignment{
+      width:300px;	
+  }
+  .sTextboxCss{
+      width:120px;
+  }
+  .mTextboxCss{
+      width:200px;
+  }
+  .lTextboxCss{
+      width:280px;
+  }
+  .section1css{
+      background-color:linen;
+      font-variant: petite-cap;
+      overflow: scroll;
+      mix-blend-mode: multiply;
+      border-style: inset;
+      
+  }
+  
+  .section2css{
+      background-color:steelgray;
+      font-variant: petite-cap;
+      mix-blend-mode: multiply;
+      border-style: outset;
+      
+  }
+
+  .user-login{
+    font-variant: petite-cap;
+    font-family: serif;
+  
+}
+  .imgcss{
+      max-width:150px;
+  }
+  .logoutButton {
+      cursor: pointer;
+      width: 96%;
+      padding-left: 18%;
+      color: #a1a1a1;
+      font-size: 16px;
+      font-family: Roboto,Helvetica;
+      font-weight: 500;
+      margin-top: -26px;
+      margin-right: 23px;
+  }    
+  .login-border{
+    border-style: solid;
+    background-color:#D4E6F1;
+      margin:200px 540px 200px;
+      padding: 10px;
+      border-radius: 10px;
+  }
+  .allign{
+    text-align:center;
+    background-color:#D4E6F1;
+
+  }
+  .allign1{
+    background-color: #1565C0;
+    
+  }
+   .bg {
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+   .login-form{
+      text-align:center;
+    
+     
+  }
+  .sectioncss{
+      display:flex;
+      flex-wrap:wrap;
+      border-style: groove;
+       background-color:white;
+       margin-top:10px;
+  }
+  .headercss{
+      background-color: #4682B4;
+      width:auto;
+  }
+  .login .center {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+  }
+ 
+  .container1{
+      display:flex;
+      flex-wrap:wrap;
+      border-style: groove;
+      border-radius: 5px;
+      margin-top:10px;
+      background-color: transparent; 
+      
+      }	
+  .left{
+      padding-left:10px;
+      padding-right:100px;
+      
+      width:10;
+      
+  }
+  .right{
+      padding-left:10px;
+          padding-right:10px;
+      
+  }
+  .sub-countainer {
+      height:80px;
+  }
+  
+  .dd-app-js{
+    width:100%;
+    height:100%;
+    }
+    .headercss{
+      width: 200px;
+    height: 70px;
+    }
+  .main-container{
+      background-color: #D4E6F1;
+  }
+  .dashboardcss{
+      border: groove;
+  }
+  .mandatory{
+      color:red;
+  }
+  
+  .wrapper {
+      text-align: center;
+  }
+  
+  .button {
+      position: absolute;
+  }
+  .container .col-3 {
+      width:33%;
+  }
+  .container .col-3 {
+      width:25%;
+  } 
+
+
+  .form-control1 {
+    display: table-cell;
+    width: 60%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.textbox{
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+.sections{
+  outline-style: groove;
+  
+  border: 1px solid #c3c3c3;
+  display: flex;
+
+}
+
+.labels{
+  padding: 20px;
+}
+
+.field-btn{
+    display: block;
+    font-size:11px;
+    padding:4px 2px;
+    border:solid 1px #aacfe4;
+    width:70px;
+    margin:2px 0 20px 10px;
+}
+
+
+.submit-btn{
+
+  width:100px;
+  height: 30px;
+  display: flex;
+  border: 1px solid #c3c3c3;
+  justify-content: right;
+
+}
